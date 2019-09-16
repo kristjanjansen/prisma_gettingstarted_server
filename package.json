@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "easy-promise-queue": "^0.5.4",
+    "ws": "^7.1.2"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
