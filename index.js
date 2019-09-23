@@ -10,7 +10,9 @@ const log = [
   { message: "Hm", delay: 5000 }
 ];
 
+console.log("\nWelcome to Prisma! Waiting connection from web interface...")
 wss.on("connection", ws => {
+  console.log("\nConnected at port 9000. Let's get started!")
   ws.on("message", message => {
     console.log(message);
   });
